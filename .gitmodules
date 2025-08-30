@@ -1,0 +1,3 @@
+[submodule "spi-master"]
+	path = spi-master
+	url = https://github.com/nandland/spi-master.git

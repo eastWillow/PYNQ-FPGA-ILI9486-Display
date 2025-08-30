@@ -83,3 +83,6 @@
 !*.elf
 !*.bmm
 !*.xmp
+PYNQ-FPGA-ILI9486-Display.runs/impl_1
+PYNQ-FPGA-ILI9486-Display.srcs/utils_1/imports/synth_1
+PYNQ-FPGA-ILI9486-Display.cache/wt

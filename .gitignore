@@ -86,3 +86,6 @@
 PYNQ-FPGA-ILI9486-Display.runs/impl_1
 PYNQ-FPGA-ILI9486-Display.srcs/utils_1/imports/synth_1
 PYNQ-FPGA-ILI9486-Display.cache/wt
+PYNQ-FPGA-ILI9486-Display.ip_user_files
+PYNQ-FPGA-ILI9486-Display.cache/sim
+PYNQ-FPGA-ILI9486-Display.sim/test_spi_master/behav/xsim

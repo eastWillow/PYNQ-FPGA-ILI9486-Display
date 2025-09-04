@@ -90,3 +90,8 @@ PYNQ-FPGA-ILI9486-Display.ip_user_files
 PYNQ-FPGA-ILI9486-Display.cache/sim
 PYNQ-FPGA-ILI9486-Display.sim/test_spi_master/behav/xsim
 PYNQ-FPGA-ILI9486-Display.sim/SPI_MASTER_TB/behav/xsim
+PYNQ-FPGA-ILI9486-Display.cache/ip/2025.1
+PYNQ-FPGA-ILI9486-Display.runs
+PYNQ-FPGA-ILI9486-Display.gen
+PYNQ-FPGA-ILI9486-Display.hw
+PYNQ-FPGA-ILI9486-Display.hw

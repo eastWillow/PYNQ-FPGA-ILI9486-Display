@@ -23,6 +23,14 @@ module top_module(
     input [3:0] btn,
     output [3:0] led
     );
+
+    sys_pll u_sys_pll
+    (
+     .clk_in1  (sysclk),
+     .clk_out1 (clk_8),
+     .locked   (int_reset)
+     );
+
     reg [3:0] state, next_state;
     parameter NONE=3'd0, S1=3'd1, S2=3'd2, S3=3'd3;
     always @ (*) begin
@@ -34,7 +42,7 @@ module top_module(
             default : next_state = NONE;
         endcase
     end
-    always @ (posedge sysclk) begin
+    always @ (posedge clk_8) begin
         if(btn[0]) begin
             state <= NONE;
         end else begin
